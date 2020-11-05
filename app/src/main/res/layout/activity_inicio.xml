@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Inicio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#0FAF00"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/ic_home"
+            android:text="@string/btnInicio" />
+
+        <Button
+            android:id="@+id/btnFavoritos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/ic_favoritos"
+            android:text="@string/btnFavoritos" />
+
+        <Button
+            android:id="@+id/btnCarrito"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/ic_carrito"
+            android:background="@android:color/transparent"
+            android:text="@string/btnCarrito" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#0E0E0E"
+        android:orientation="horizontal">
+        <ahmed.easyslider.EasySlider
+            android:id="@+id/slader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></ahmed.easyslider.EasySlider>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Ofertas y ahorros"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCategorias"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_categorias"
+            android:text="Categorias"
+            android:textAlignment="center"
+            android:textColor="#2CBA06"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="0"
+            android:drawableTop="@drawable/ic_promo"
+            android:text="Promociones"
+            android:background="@android:color/transparent"
+            android:textColor="#2CBA06"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:drawableTop="@drawable/ic_his"
+            android:text="Historial"
+            android:background="@android:color/transparent"
+            android:textColor="#2CBA06"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

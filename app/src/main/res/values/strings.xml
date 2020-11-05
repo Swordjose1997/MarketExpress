@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Market Express</string>
+    <string name="btnInicio">Inicio</string>
+    <string name="btnFavoritos">Favoritos</string>
+    <string name="btnCarrito">Carrito</string>
+    <string name="txtNewAccount">NEW ACCOUNT</string>
+    <string name="txtUsername">Usuario:</string>
+    <string name="txtNombre">Nombres:</string>
+    <string name="txtApellidos">Apellidos:</string>
+    <string name="txtCorreo">Correo:</string>
+    <string name="txtFechaNacimiento">F. Nacimiento:</string>
+    <string name="txtPassword">Contraseña:</string>
+    <string name="txtConfirmarPassword">Conf Contraseña:</string>
+    <string name="btnRegistrar">REGISTRARME</string>
+
+</resources>
